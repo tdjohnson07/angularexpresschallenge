@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="challengeApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Express Challenge</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="vendors/angular/angular.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </head>
+  <body ng-controller="MainController as main">
+    <div class="wrapper">
+      <button ng-click="main.displayStudents()">Display Students</button>
+    </div>
+    <ol>
+      <li ng-repeat="student in main.studentArray">{{student}}</li>
+    </ol>
+  </body>
+</html>

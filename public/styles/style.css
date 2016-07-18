@@ -1,0 +1,24 @@
+body{
+  width: 240px;
+  margin: 0 auto;
+  background-color: burlywood;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+.wrapper{
+  text-align: center;
+}
+button{
+  margin-top: 20px;
+  height: 100px;
+  width: 161px;
+  background-color: #800020;
+  color: burlywood;
+  font-size: 22px;
+}
+ol{
+text-align: center;
+}
+li{
+  font-size: 18px;
+  color: #800020;
+}
